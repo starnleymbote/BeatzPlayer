@@ -1,0 +1,4 @@
+#Mon Mar 11 10:42:00 EAT 2019
+base.0=/home/stano/AndroidStudioProjects/MobiTech/codecanyon-21418542-broken-wings-adventure-game-android-ios-template-inside/Android Template Envato/Beatzplayer/app/build/intermediates/transforms/dexMerger/debug/6
+path.0=classes.dex
+renamed.0=classes.dex

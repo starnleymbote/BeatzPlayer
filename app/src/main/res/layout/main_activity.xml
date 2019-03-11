@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_media_library" android:id="@+id/main_activity"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<include layout="@layout/top_bar" android:id="@+id/top_bar"></include>
+	<include layout="@layout/tabhost"></include>
+	<include layout="@layout/bottom_menu" 
+		android:id="@+id/bottom_bar">
+
+    </include>
+
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+		android:id="@+id/adView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginBottom="89dp"
+		ads:adSize="BANNER"
+		ads:adUnitId="ca-app-pub-4536585142676162/5241639429"></com.google.android.gms.ads.AdView>
+</RelativeLayout>
